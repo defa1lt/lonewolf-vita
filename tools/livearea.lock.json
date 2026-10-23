@@ -1,0 +1,43 @@
+{
+  "icon": {
+    "source_sha256": "5815ec2eaa73177dc52996cc086ecd042542811f1ca5cea968e02eb385139496",
+    "source_size": [
+      500,
+      500
+    ],
+    "output_size": [
+      128,
+      128
+    ],
+    "output_sha256": "d24ed832ada7a9c27b41266800dbb9e8d45bbc007f9eeb68538776defaf9790c"
+  },
+  "background": {
+    "source_sha256": "00f2160ba353683a3d00535119ccbd4fdfa1d179c6999d29d8bab69ef2e531c1",
+    "source_size": [
+      1920,
+      1072
+    ],
+    "output_size": [
+      840,
+      500
+    ],
+    "output_sha256": "b654e01000c9b0f409411e6c7597dca5275ada7dc09a04db4c3a70b1625a5b8b"
+  },
+  "startup": {
+    "source_sha256": "4a6791afc875eede8fc5a7d350aa25da43d538b74dcd6ce3acdc1fa1f298f31a",
+    "source_size": [
+      2172,
+      724
+    ],
+    "output_size": [
+      280,
+      158
+    ],
+    "output_sha256": "21107eae666750ff18248396f055a25745a88da809c3646722177ea7371411ae"
+  },
+  "approval": {
+    "status": "approved",
+    "date": "2026-10-13",
+    "scope": "Exact exported icon, background and startup PNGs approved by the owner before installation."
+  }
+}

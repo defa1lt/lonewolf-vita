@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "apk": {
+    "bytes": 70460020,
+    "sha256": "aeddf65888006671463234b1cb8efbeb7b4bb297744fe0f15cffe38fea99542c",
+    "entries": 1409
+  },
+  "air": {
+    "namespace": "http://ns.adobe.com/air/application/32.0",
+    "id": "com.FDGEntertainment.Lonewolf.gp",
+    "version": "1.2.90",
+    "content": "Lonewolf.swf",
+    "render_mode": "gpu",
+    "extensions": [
+      "com.distriqt.Core",
+      "com.distriqt.GoogleAnalytics",
+      "com.distriqt.androidsupport.V4",
+      "com.distriqt.playservices.Analytics",
+      "com.distriqt.playservices.Base",
+      "com.ironsource.adobeair",
+      "com.ironsource.adobeair.adcolony",
+      "com.ironsource.adobeair.admob",
+      "com.ironsource.adobeair.applovin",
+      "com.ironsource.adobeair.chartboost",
+      "com.ironsource.adobeair.unityads",
+      "com.milkmangames.extensions.AndroidIAB",
+      "com.milkmangames.extensions.CoreMobile",
+      "com.milkmangames.extensions.GoViral",
+      "com.milkmangames.extensions.GoogleGames",
+      "com.sticksports.nativeExtensions.Flurry"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "assets/META-INF/AIR/application.xml",
+      "bytes": 12142,
+      "sha256": "ebafb32754ad837ca5862b4528cf3e1f4002f5eb92748e93678ae98b99952503"
+    },
+    {
+      "path": "assets/Lonewolf.swf",
+      "bytes": 50859025,
+      "sha256": "668144e1a6da687daadad648f2cdbb084fc30d9549bd1895a444d69e38db6a4c",
+      "swf": {
+        "signature": "CWS",
+        "version": 43,
+        "uncompressed_bytes": 61547335,
+        "actionscript3": true,
+        "width": 1135.0,
+        "height": 640.0,
+        "fps": 48.0,
+        "frames": 1,
+        "document_class": "Lonewolf_fla.MainTimeline",
+        "doabc_tag_bytes": 1159720,
+        "tag_counts": {
+          "0": 1,
+          "1": 1,
+          "2": 1383,
+          "9": 1,
+          "11": 75,
+          "14": 175,
+          "20": 3,
+          "21": 243,
+          "22": 168,
+          "24": 1,
+          "32": 157,
+          "34": 5,
+          "35": 182,
+          "36": 202,
+          "37": 591,
+          "39": 1279,
+          "45": 1,
+          "46": 96,
+          "64": 1,
+          "69": 1,
+          "73": 7,
+          "74": 35,
+          "75": 7,
+          "76": 1,
+          "82": 1,
+          "83": 162,
+          "86": 1,
+          "88": 7,
+          "93": 1
+        }
+      }
+    },
+    {
+      "path": "assets/text_en.xml",
+      "bytes": 84179,
+      "sha256": "57545989234b9a29eb66561abc101bac529ef08c7af259526c3615486a177a5f"
+    },
+    {
+      "path": "assets/text_ru.xml",
+      "bytes": 137293,
+      "sha256": "f1d91df23f59128ec4626c4967a1d1b4a1e25b227793f69c336d2ac1fcb91dfc"
+    },
+    {
+      "path": "assets/text_ch.xml",
+      "bytes": 84494,
+      "sha256": "ef5f47269afd39d4f7d7fd1c7ec63d374c706b8c24f001fc0777e6dd8277a541"
+    },
+    {
+      "path": "assets/text_fr.xml",
+      "bytes": 94799,
+      "sha256": "31a1bd3f454e899fda8a51a436204e997462029b3bfb929ef79af7d10f268a64"
+    },
+    {
+      "path": "assets/text_gr.xml",
+      "bytes": 105330,
+      "sha256": "416a0b40862160118a53fdb4e4debad9eb822f6834fabfc4c7190a07f1e55fdf"
+    },
+    {
+      "path": "assets/text_it.xml",
+      "bytes": 90435,
+      "sha256": "722a239a48c0a2def46de5a47c29e5fbeddd6097fd9a087322bbcc19ec97aec6"
+    },
+    {
+      "path": "assets/text_sp.xml",
+      "bytes": 93613,
+      "sha256": "c5ee126746833e1a67e0c76da1458cf26e9a4cb43fac6407518b47df6f8686fb"
+    },
+    {
+      "path": "assets/text_tk.xml",
+      "bytes": 90280,
+      "sha256": "8df4f8c2faf890f5e2feacb9a76206a982b1edb68325be3b8a5ec9ab6edd9808"
+    },
+    {
+      "path": "classes.dex",
+      "bytes": 6556572,
+      "sha256": "dd6f9ce513e910462a52aa3c7970eeb33c5e9aabe8e10cf28a51f8a42d827fc2"
+    },
+    {
+      "path": "lib/armeabi-v7a/libCore.so",
+      "bytes": 18608396,
+      "sha256": "fb772904954c4045d487dd057afbf6442251840a392fb9c88c79bd8a8a3a5fce",
+      "elf_machine": 40,
+      "elf_flags": 83886592
+    },
+    {
+      "path": "lib/armeabi-v7a/libadcolony.so",
+      "bytes": 38244,
+      "sha256": "3bf6d6a7ded460d8070f4d29642cf33394880c273681b05ced9570ff4ba9bb71",
+      "elf_machine": 40,
+      "elf_flags": 83886080
+    },
+    {
+      "path": "lib/armeabi-v7a/libc++_shared.so",
+      "bytes": 636520,
+      "sha256": "c3c1094545287fd9533ae6ee057b556462b0def027b1a67dbb12b6e9f1c61e4a",
+      "elf_machine": 40,
+      "elf_flags": 83886592
+    },
+    {
+      "path": "lib/armeabi-v7a/libjs.so",
+      "bytes": 935488,
+      "sha256": "5eb5b2609d7f5402d602b7dd6ad43539197a67b15973562e4336d9460956d29d",
+      "elf_machine": 40,
+      "elf_flags": 83886080
+    },
+    {
+      "path": "lib/armeabi-v7a/libysshared.so",
+      "bytes": 275688,
+      "sha256": "fe78f48bb7409b4809e1a46987e17ea225463e8c6cc2968c18fa427289dad1d8",
+      "elf_machine": 40,
+      "elf_flags": 83886080
+    }
+  ]
+}
