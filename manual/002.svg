@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="544" viewBox="0 0 960 544"><g font-family="Arial"><rect width="960" height="544" fill="#101315"/><text x="24" y="42" font-size="30" fill="#e8ece5" text-anchor="start" font-weight="bold">LONEWOLF</text>
+<text x="24" y="68" font-size="18" fill="#b7bdb8" text-anchor="start">Снайперская винтовка</text>
+<text x="936" y="42" font-size="16" fill="#dac346" text-anchor="end">2 / 2</text>
+<defs><linearGradient id="case" x2="0" y2="1"><stop stop-color="#34383c"/><stop offset="1" stop-color="#151719"/></linearGradient></defs>
+<path d="M258 165 Q213 173 205 265 Q204 365 253 414 L707 414 Q756 365 755 265 Q747 173 702 165 Z" fill="url(#case)" stroke="#77796f" stroke-width="2"/>
+<path d="M244 172 Q248 153 288 156 L304 170 M656 170 L672 156 Q711 153 716 172" fill="#4b4e4d" stroke="#a0a193" stroke-width="2"/>
+<rect x="315" y="183" width="330" height="209" rx="8" fill="#080a0b" stroke="#60645c" stroke-width="2"/>
+<rect x="328" y="195" width="304" height="172" fill="#191d1f"/>
+<path d="M480 216V348 M348 281H612" stroke="#343b3d" stroke-width="1" stroke-dasharray="4 8"/>
+<circle cx="480" cy="281" r="22" fill="none" stroke="#e6cb38" stroke-width="1.5"/>
+<path d="M480 249v13 M480 300v13 M448 281h13 M499 281h13" stroke="#e6cb38" stroke-width="2"/>
+<text x="480" y="335" fill="#a6adae" font-size="13" text-anchor="middle">СЕНСОРНЫЙ ЭКРАН</text>
+<text x="480" y="383" fill="#a6adae" font-size="12" text-anchor="middle" letter-spacing="3">PS VITA</text>
+<circle cx="269" cy="324" r="24" fill="#0b0d0e" stroke="#636761" stroke-width="2"/><circle cx="269" cy="324" r="17" fill="#25292a" stroke="#969a8c"/>
+<circle cx="691" cy="324" r="24" fill="#0b0d0e" stroke="#636761" stroke-width="2"/><circle cx="691" cy="324" r="17" fill="#25292a" stroke="#969a8c"/>
+<path d="M260 218h18v20h20v18h-20v20h-18v-20h-20v-18h20Z" fill="#141718" stroke="#93978b" stroke-width="1.5"/>
+<path d="m269 224-4 7h8Z m0 46-4-7h8Z m-23-23 7-4v8Z m46 0-7-4v8Z" fill="#b2b7aa"/>
+<circle cx="691" cy="224" r="14" fill="#171a1b" stroke="#93978b"/><path d="m691 216 7 12h-14Z" fill="none" stroke="#c3c9b9"/>
+<circle cx="716" cy="249" r="14" fill="#171a1b" stroke="#93978b"/><circle cx="716" cy="249" r="6" fill="none" stroke="#c3c9b9"/>
+<circle cx="666" cy="249" r="14" fill="#171a1b" stroke="#93978b"/><rect x="660" y="243" width="12" height="12" fill="none" stroke="#c3c9b9"/>
+<circle cx="691" cy="274" r="14" fill="#171a1b" stroke="#93978b"/><path d="m686 269 10 10m-10 0 10-10" stroke="#c3c9b9"/>
+<rect x="659" y="375" width="22" height="8" rx="4" fill="#080a0b" stroke="#93978b"/><rect x="697" y="375" width="22" height="8" rx="4" fill="#080a0b" stroke="#93978b"/>
+<text x="670" y="368" fill="#92978b" text-anchor="middle" font-size="6">SELECT</text><text x="708" y="368" fill="#92978b" text-anchor="middle" font-size="6">START</text>
+<circle cx="256" cy="384" r="10" fill="#171a1b" stroke="#93978b"/><text x="256" y="388" font-size="9" text-anchor="middle" fill="#b2b7aa">PS</text>
+<polyline points="266,164 190,128 24,128" fill="none" stroke="#dac346" stroke-width="1.4"/><circle cx="266" cy="164" r="3" fill="#dac346"/><text x="24" y="103" font-size="17" fill="#e8ece5" text-anchor="start" font-weight="bold">L — удерживать</text>
+<text x="24" y="122" font-size="14" fill="#b7bdb8" text-anchor="start">Гироскоп: точная доводка</text>
+<polyline points="269,224 190,225 24,225" fill="none" stroke="#dac346" stroke-width="1.4"/><circle cx="269" cy="224" r="3" fill="#dac346"/><text x="24" y="200" font-size="17" fill="#e8ece5" text-anchor="start" font-weight="bold">↑ / ↓ — увеличение</text>
+<text x="24" y="219" font-size="14" fill="#b7bdb8" text-anchor="start">Без удержания L</text>
+<polyline points="269,324 190,358 24,358" fill="none" stroke="#dac346" stroke-width="1.4"/><circle cx="269" cy="324" r="3" fill="#dac346"/><text x="24" y="333" font-size="17" fill="#e8ece5" text-anchor="start" font-weight="bold">СТИКИ — прицел</text>
+<text x="24" y="352" font-size="14" fill="#b7bdb8" text-anchor="start">Стик — наводка, L — доводка</text>
+<polyline points="696,164 770,128 936,128" fill="none" stroke="#dac346" stroke-width="1.4"/><circle cx="696" cy="164" r="3" fill="#dac346"/><text x="936" y="103" font-size="17" fill="#e8ece5" text-anchor="end" font-weight="bold">R / × — огонь</text>
+<text x="936" y="122" font-size="14" fill="#b7bdb8" text-anchor="end">Нажать и отпустить — выстрел</text>
+<polyline points="666,249 770,215 936,215" fill="none" stroke="#dac346" stroke-width="1.4"/><circle cx="666" cy="249" r="3" fill="#dac346"/><text x="936" y="190" font-size="17" fill="#e8ece5" text-anchor="end" font-weight="bold">КВАДРАТ</text>
+<text x="936" y="209" font-size="14" fill="#b7bdb8" text-anchor="end">Перезарядка</text>
+<polyline points="691,274 770,310 936,310" fill="none" stroke="#dac346" stroke-width="1.4"/><circle cx="691" cy="274" r="3" fill="#dac346"/><text x="936" y="285" font-size="17" fill="#e8ece5" text-anchor="end" font-weight="bold">R / × — УДЕРЖИВАТЬ</text>
+<text x="936" y="304" font-size="14" fill="#b7bdb8" text-anchor="end">Задержка дыхания</text>
+<polyline points="670,379 670,436 24,436" fill="none" stroke="#dac346" stroke-width="1.4"/><text x="24" y="459" font-size="17" fill="#e8ece5" text-anchor="start" font-weight="bold">SELECT — задание / закрыть панель</text>
+<polyline points="708,379 792,416 936,416" fill="none" stroke="#dac346" stroke-width="1.4"/><text x="936" y="439" font-size="17" fill="#e8ece5" text-anchor="end" font-weight="bold">START — пауза / продолжить</text>
+<path d="M24 478H936" stroke="#40473f"/><text x="24" y="501" font-size="17" fill="#e8ece5" text-anchor="start">L: держи Vita удобно и плавно поворачивай её. Отпусти L, чтобы переставить руки.</text>
+<text x="24" y="526" font-size="16" fill="#b7bdb8" text-anchor="start">В меню: левый стик — указатель, × — выбор. Палец на прицеле важнее стиков и гироскопа.</text>
+</g></svg>

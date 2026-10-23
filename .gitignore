@@ -1,0 +1,30 @@
+.DS_Store
+.agents/
+build/
+dist/
+assets/
+extracted_apk/
+decompiled/
+saves/
+runtime_logs/
+*.apk
+*.swf
+*.ane
+*.so
+*.dex
+*.jar
+*.vpk
+*.elf
+*.bin
+*.log
+__pycache__/
+*.pyc
+/target
+
+
+# Pinned upstream playerglobal compiler; no game archive.
+!vendor/ruffle/core/build_playerglobal/asc.jar
+
+# Upstream Ruffle fonts and UI strings, not Lonewolf game assets.
+!vendor/ruffle/core/assets/
+!vendor/ruffle/core/assets/**

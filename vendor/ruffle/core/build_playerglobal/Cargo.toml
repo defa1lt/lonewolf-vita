@@ -1,0 +1,20 @@
+[package]
+name = "build_playerglobal"
+authors.workspace = true
+edition = "2024"
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+convert_case = "0.8.0"
+proc-macro2 = "1.0.103"
+quote = "1.0.41"
+swf = { git = "https://github.com/ruffle-rs/ruffle", rev = "563854a8911eda672b1836fb374063162879035d" }
+clap = { workspace = true }
+regex = { workspace = true }
+walkdir = { workspace = true }

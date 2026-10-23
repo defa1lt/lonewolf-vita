@@ -1,0 +1,45 @@
+[package]
+name = "lonewolf-vita"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[features]
+capture = ["dep:ruffle_render_wgpu", "dep:image"]
+
+[dependencies]
+ruffle_core = { git = "https://github.com/ruffle-rs/ruffle", rev = "563854a8911eda672b1836fb374063162879035d", default-features = false, features = ["default_font", "default_compatibility_rules", "lzma", "audio", "mp3"] }
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+tracing = "0.1"
+sha2 = "0.10"
+
+[target.'cfg(not(target_os = "vita"))'.dependencies]
+ruffle_render_wgpu = { git = "https://github.com/ruffle-rs/ruffle", rev = "563854a8911eda672b1836fb374063162879035d", optional = true }
+image = { version = "0.25.8", default-features = false, features = ["png"], optional = true }
+
+[target.'cfg(target_os = "vita")'.dependencies]
+ruffle_render_glow = { path = "vendor/ruffle_render_glow" }
+glow = { git = "https://github.com/grovesNL/glow", rev = "aa4238a60d17076b917eaa1ec662e5080df42b0a" }
+ruffle_render = { git = "https://github.com/ruffle-rs/ruffle", rev = "563854a8911eda672b1836fb374063162879035d" }
+
+[build-dependencies]
+cc = "1"
+
+[dev-dependencies]
+tempfile = "3"
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 2
+
+[profile.release]
+debug = 1
+
+[patch."https://github.com/ruffle-rs/ruffle"]
+ruffle_render = { path = "vendor/ruffle/render" }
+ruffle_core = { path = "vendor/ruffle/core" }
+
+[patch.crates-io]
+jpeg-decoder = { path = "vendor/jpeg-decoder" }
