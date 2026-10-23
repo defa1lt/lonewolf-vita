@@ -36,7 +36,7 @@ The Vita build requires VitaSDK with VitaGL, vitaShark, math-neon, SceShaccCgExt
 
 `tools/build_vita.py` is a local test packager that **includes game data**. It also requires the exact approved LiveArea images listed in `tools/livearea.lock.json`; those game-derived images are not included in this source repository. A clean checkout can build the host runtime, but cannot create a complete VPK without these private inputs. Pillow is needed by the artwork preparation tools.
 
-With your locally prepared game, required artwork and SDK available:
+For this packager, place the verified APK at the repository root with the exact name `LONEWOLF_v1.2.90_Mod.apk`; the packager checks that path even if the earlier preparation command used a different input location. Keep the prepared SWF at `build/Lonewolf-air.swf`, and provide the required artwork and SDK. Then run:
 
 ```sh
 python3 tools/build_vita.py --sdk /path/to/vitasdk
